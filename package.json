@@ -1,0 +1,46 @@
+{
+  "name": "koa-response-middleware",
+  "version": "1.0.0",
+  "description": "koa response middleware for Koa@2.x, including http status, response header, response body, error handler.",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "example": "node examples/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soonfy/koa-response-middleware.git"
+  },
+  "keywords": [
+    "koa",
+    "koajs",
+    "middleware",
+    "koa-response-middleware"
+  ],
+  "author": "soonfy <soonfy@163.com> (https://github.com/soonfy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soonfy/koa-response-middleware/issues"
+  },
+  "homepage": "https://github.com/soonfy/koa-response-middleware#readme",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "koa": "^2.12.0"
+  },
+  "contributors": [
+    {
+      "name": "soonfy",
+      "email": "soonfy@163.com",
+      "url": "https://github.com/soonfy"
+    }
+  ]
+}
